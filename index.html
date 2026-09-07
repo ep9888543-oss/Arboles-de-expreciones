@@ -1,66 +1,48 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./css/b5.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <!-- Rutas corregidas hacia la carpeta public -->
+    <link rel="stylesheet" href="./public/css/b5.css">
+    <link rel="stylesheet" href="./public/css/main.css">
 
-    <script src="./js/b5.js"></script>
-    <script src="./js/poper.js"></script>
-    <script src="./js/leader.js"></script>
+    <script src="./public/js/b5.js"></script>
+    <script src="./public/js/poper.js"></script>
+    <script src="./public/js/leader.js"></script>
 
-    <title>Document</title>
-
+    <title>Árbol de Expresiones</title>
 </head>
 
 <body>
-
     <div class="container mt-5">
-
         <div class="row justify-content-center">
-
             <div class="col-12 text-center mb-3">
-            
                 <h1>Arbol de expresiones</h1>
-
                 <hr>
 
-                <div class="col-12">
-
+                <div class="col-12 mb-4">
                     <div class="row">
-
                         <div class="col">
-
                             <input
                                 type="text"
                                 class="form-control"
                                 id="expresion"
-                                placeholder="Ingrese una expresión"
+                                placeholder="Ingrese una expresión (ej. 25 + 58)"
                             >
-
                         </div>
-
                     </div>
-
                 </div>
 
-                <div class="col-12" id="arbol">
-                </div>
-
+                <div class="col-12" id="arbol"></div>
             </div>
-
         </div>
-
     </div>
 
-    <script src="./js/index.js"></script>
-
+    <!-- Ruta corregida del script principal -->
+    <script src="./public/js/index.js"></script>
 </body>
 
 </html>
